@@ -10,5 +10,9 @@ public class Main {
         boolean tampan = true;
 
         System.out.println(namaDepan + " " + namaTengah + " " + namaBelakang);
+
+        char[] wahyuChar = {'W', 'A', 'H', 'Y', 'U'};
+        String wahyuString = new String(wahyuChar);
+        System.out.println(wahyuString);
     }
 }
